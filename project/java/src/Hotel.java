@@ -1,16 +1,3 @@
-/*
- * Template JAVA User Interface
- * =============================
- *
- * Database Management Systems
- * Department of Computer Science &amp; Engineering
- * University of California - Riverside
- *
- * Target DBMS: 'Postgres'
- *
- */
-
-
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.Statement;
@@ -23,20 +10,14 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.ArrayList;
-import java.lang.Math;
+import java.lang.Math
 
-/**
- * This class defines a simple embedded SQL utility class that is designed to
- * work with PostgreSQL JDBC drivers.
- *
- */
 public class Hotel {
 
    // reference to physical database connection.
    private Connection _connection = null;
 
    // handling the keyboard inputs through a BufferedReader
-   // This variable can be global for convenience.
    static BufferedReader in = new BufferedReader(
                                 new InputStreamReader(System.in));
 
